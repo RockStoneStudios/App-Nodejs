@@ -1,0 +1,38 @@
+<%- include('partials/header') %>
+ 
+  <div class="container">
+     <div class="row">
+         <div class="col-md-5">
+            <div class="card">
+                <dvi class="card-body">
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" name="title" placeholder="Inserte un Titulo" class="form-control">
+                        </div>
+                        <div class="form-group">
+                           <textarea name="description"  cols="80" class="form-control" placeholder="Inserte Description"></textarea>
+                        </div>
+                       <input type="submit" class="btn btn-primary btn-block">
+                    </form>
+                </dvi>
+            </div>
+
+         </div>
+         <div class="col-md-7">
+            <table class="table table-bordered table-hover" >
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Operation</th>
+                    </tr>
+                </thead>
+            </table>
+         </div>
+     </div>
+  </div>
+
+  <%- include('partials/footer')%>
+
+  
